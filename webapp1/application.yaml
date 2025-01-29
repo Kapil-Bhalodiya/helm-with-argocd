@@ -9,10 +9,10 @@ spec:
   source:
     repoURL: https://github.com/Kapil-Bhalodiya/helm-with-argocd.git
     targetRevision: HEAD
-    path: dev
+    path: webapp1
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
   syncPolicy:
-    syncOption:
-      -CreateNamespace=true
+    syncOptions:
+    - CreateNamespace=true
