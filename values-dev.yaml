@@ -1,0 +1,4 @@
+namespace: dev
+configmap:
+  name: myhelmconfigmapv1.1
+  CUSTOM_HEADER: "This was heml Deployment - Welcome to Dev!"

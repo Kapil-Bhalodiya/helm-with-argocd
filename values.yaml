@@ -1,0 +1,8 @@
+appName: myhelmapp
+namespace: default
+configmap:
+  name: myhelmconfigmapv1.1
+  CUSTOM_HEADER: "This was heml Deployment!"
+image:
+  name: devopsjourney1/mywebapp
+  tag: latest
